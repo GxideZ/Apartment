@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 120%;
+    background: url('bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0); /* โปร่งใส 100% */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7); /* โปร่งใส 80% */
+    border: none; /* เอาเส้นขอบออกหากต้องการ */
+    box-shadow: none; /* เอาเงาออกหากไม่ต้องการ */
+}
+
+p.text-center {
+    color:black; /* เปลี่ยนสีของข้อความภายในแท็ก <p> */
+}
+
+p.text-center a {
+    color: blue; /* เปลี่ยนสีของลิงก์ <a> ภายในแท็ก <p> */
+}
+
+p.text-center a:hover {
+    color: green; /* เปลี่ยนสีของลิงก์เมื่อเลื่อนเมาส์ผ่าน */
+}
+
+

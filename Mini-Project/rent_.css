@@ -1,0 +1,96 @@
+body {
+    background-color: #f0f2f5;
+    /* เปลี่ยนเป็นสีพื้นหลังที่ดูหรูหรา */
+    font-family: 'Roboto', sans-serif;
+    /* ใช้ฟอนต์ Roboto */
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: #212529;
+    /* สีพื้นหลังเข้ม */
+    color: white;
+    padding-top: 30px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    /* เพิ่มเงาให้ sidebar */
+}
+
+.sidebar .user-info {
+    background-color: #343a40;
+    /* สีพื้นหลังของ user-info */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงาให้ user-info */
+}
+
+.sidebar .nav-link {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 10px 15px;
+    /* เพิ่ม padding */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #17a2b8;
+    /* สีเมื่อ hover */
+    transform: scale(1.05);
+}
+
+.sidebar .nav-link.active {
+    background-color: #17a2b8;
+    /* สีที่ใช้ในลิงก์ที่เลือก */
+    font-weight: bold;
+    border-left: 5px solid gold;
+    /* ขอบซ้ายสีทอง */
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-link {
+    color: white;
+    /* กำหนดสีข้อความให้เป็นสีขาว */
+}
+
+.nav-link:hover {
+    color: #ccc;
+    /* กำหนดสีข้อความเมื่อ hover */
+}
+
+.nav-link.active {
+    color: white;
+    /* ยืนยันให้ลิงก์ active เป็นสีขาว */
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}   
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

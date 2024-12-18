@@ -1,0 +1,119 @@
+body {
+    background-color: #f0f2f5;
+    /* เปลี่ยนเป็นสีพื้นหลังที่ดูหรูหรา */
+    font-family: 'Roboto', sans-serif;
+    /* ใช้ฟอนต์ Roboto */
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: #212529;
+    /* สีพื้นหลังเข้ม */
+    color: white;
+    padding-top: 30px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    /* เพิ่มเงาให้ sidebar */
+}
+
+.sidebar .user-info {
+    background-color: #343a40;
+    /* สีพื้นหลังของ user-info */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงาให้ user-info */
+}
+
+.sidebar .nav-link {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 10px 15px;
+    /* เพิ่ม padding */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #17a2b8;
+    /* สีเมื่อ hover */
+    transform: scale(1.05);
+}
+
+.sidebar .nav-link.active {
+    background-color: #17a2b8;
+    /* สีที่ใช้ในลิงก์ที่เลือก */
+    font-weight: bold;
+    border-left: 5px solid gold;
+    /* ขอบซ้ายสีทอง */
+}
+
+/* table */
+.table {
+    background-color: #ffffff;
+    /* สีพื้นหลังหลัก */
+    border-radius: 10px;
+    /* มุมมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* เงา */
+    margin-top: 20px;
+    overflow: hidden;
+    /* ป้องกันการแสดงผลของขอบมน */
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    /* เพิ่ม padding */
+    vertical-align: middle;
+    /* จัดให้อยู่กลาง */
+    border: 1px solid #ddd;
+    /* เพิ่มขอบให้กับเซลล์ */
+}
+
+.table th {
+    background-color: green;
+    /* สีพื้นหลังของ header */
+    color: #ffffff;
+    /* สีตัวอักษรของ header */
+    text-align: center;
+    /* จัดให้อยู่กลาง */
+    transition: background-color 0.3s ease;
+    /* เพิ่มการเคลื่อนไหวเมื่อ hover */
+}
+
+.table th:hover {
+    background-color: #006400;
+    /* สีพื้นหลังเมื่อ hover ที่ header */
+}
+
+.table tbody tr {
+    transition: background-color 0.3s ease;
+    /* เพิ่มการเคลื่อนไหว */
+}
+
+.table tbody tr:hover {
+    background-color: #f0f8ff;
+    /* สีพื้นหลังเมื่อ hover แถว */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+    /* สีพื้นหลังสำหรับแถวที่ไม่คู่ */
+}
+
+.table td {
+    text-align: center;
+    /* จัดให้อยู่กลาง */
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

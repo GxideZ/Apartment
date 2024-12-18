@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    /* สีพื้นหลังเบาๆ */
+}
+
+.btn {
+    background-color: #778899;
+    /* สีพื้นฐานของปุ่ม */
+    color: white;
+    /* สีตัวอักษร */
+}
+
+.btn:hover {
+    background-color: #2F4F4F;
+    /* เปลี่ยนเป็นสีที่คุณต้องการเมื่อ hover */
+    color: white;
+    /* เปลี่ยนสีตัวอักษรเมื่อ hover */
+}
+
+.btn-danger {
+    background-color: red;
+    /* สีพื้นฐานของปุ่ม Logout */
+    color: white;
+    /* สีตัวอักษร */
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+    /* สีเมื่อเลื่อนเมาส์ไปชี้ */
+    color: white;
+    /* สีตัวอักษร */
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+}
+
+.sidebar p {
+    color: white;
+}
